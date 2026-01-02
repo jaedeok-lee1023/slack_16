@@ -47,25 +47,23 @@ def send_slack_message(message, channel):
 def main():
     for cluster in clusters:
         # 메시지 제목 설정
-        header = f":loudspeaker: *『인사총무팀 공지』* \n\n"
+        header = f"*[공지｜클러스터 內 *<https://static.wixstatic.com/media/50072f_ad740cc63d41408ba0c0f674065f80d2~mv2.png|개인가방/귀중품 현장 반입 금지 안내>*]*\n\n\n"
 
         notice_msg = (
-            f"안녕하세요? 평택 클러스터 구성원 여러분! 인사총무팀 입니다. :blush:\n"
+            f"1. *중요도* : 중\n"
+            f"2. *대상* : 평택 클러스터 임직원 전체\n"
+            f"3. *주요 내용*\n\n"
             f"\n"
-            f"* 건강하고 원활한 우리 클러스터 업무 환경* 을 위해 아래와 같이 협조 부탁드리겠습니다.\n\n"
-            f"\n"
-            f":pushpin: *<https://static.wixstatic.com/media/50072f_ad740cc63d41408ba0c0f674065f80d2~mv2.png|개인가방/귀중품 현장 반입 금지>*\n\n"
+            f"안녕하세요? 평택 클러스터 구성원 여러분!\n\n"
+            f"*건강하고 원활한 우리 클러스터 업무 환경* 을 위해 아래와 같이 협조 부탁드리겠습니다.\n\n"
             f"\n"
             f":체크1: *개인 가방은 각 현장 업무 공간에 가지고 들어갈 수 없습니다.* :man-gesturing-no::woman-gesturing-no:\n\n"
             f":체크1: *현장 및 업무 투입 전 반드시!! 6층 사물함에 보관해 주시기 바랍니다.* :man-gesturing-ok::ok_woman:\n\n"
             f"\n"
-            f"각 배정받은 사물함 번호를 모르실 경우 아래 인원에게 문의 부탁드립니다.\n\n"
+            f"각 배정받은 사물함 번호를 모르실 경우 아래 인원에게 문의 부탁드립니다.\n"
             f"\n"
-            f":slack: *문의사항*\n"
-            f"인사총무팀_총무/시설 담당자 : <@U04RT8X7D9N> <@U07QC9WQ8JX> <@U05NXEAL43E>\n\n"
-            f"\n"
+            f"*:slack: 문의사항 : 인사총무팀 총무/시설 담당자*\n\n"
             f"감사합니다.\n"
-            f"\n"
         )
  
 # 메시지 본문
