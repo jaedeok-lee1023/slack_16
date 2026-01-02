@@ -5,5 +5,5 @@ class KurlyCluster:
 
 # 컬리 클러스터 슬랙 채널 목록
 clusters = [
-    KurlyCluster('C05NEURMLUX', '개인물품 현장반입금지'),
+    KurlyCluster('C08QCLTFQF6', '개인물품 현장반입금지'),
 ]
