@@ -47,7 +47,7 @@ def send_slack_message(message, channel):
 def main():
     for cluster in clusters:
         # 메시지 제목 설정
-        header = f"*[공지｜클러스터 內 *<https://static.wixstatic.com/media/50072f_ad740cc63d41408ba0c0f674065f80d2~mv2.png|개인가방/귀중품 현장 반입 금지 안내>*]*\n\n\n"
+        header = f"*[공지｜클러스터 內 <https://static.wixstatic.com/media/50072f_ad740cc63d41408ba0c0f674065f80d2~mv2.png|개인가방/귀중품 현장 반입 금지 안내>]*\n\n\n"
 
         notice_msg = (
             f"1. *중요도* : 중\n"
